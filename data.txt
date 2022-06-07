@@ -1,0 +1,14 @@
+contactsCount: 2
+Raf name
+Muradyan surname
+12.02.1999 dob
+AP534353 passportID
+98395330 phoneNumber
+muradyanrafik1@gmail.com email
+next contact
+Armen name
+Harutyunyan surname
+04.11.1990 dob
+AP453627 passportID
+93180368 phoneNumber
+armenharutunyan@gmail.com email
