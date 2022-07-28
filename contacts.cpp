@@ -168,7 +168,7 @@ void addNewContact()
     std::cin >> newContact.dob;
     std::string forTest{};
     bool test{}; 
-    do{
+    do {
         std::cout << "PHONE NUMBER: (+374)--------\b\b\b\b\b\b\b\b";
         std::cin >> forTest;
         test = false;
@@ -184,7 +184,7 @@ void addNewContact()
     newContact.phoneNumber = forTest;
     forTest.clear();
 
-    do{
+    do {
         std::cout << "PASSPORT ID: ";
         std::cin >> forTest;
         test = false;
@@ -238,7 +238,7 @@ void editContact()
             std::string forTest{};
             bool test{}; 
 
-            do{
+            do {
                 std::cout << "PHONE NUMBER: (+374)--------\b\b\b\b\b\b\b\b";
                 std::cin >> forTest;
                 test = false;
@@ -254,8 +254,8 @@ void editContact()
            while (test);
            myContacts[i].passportID = forTest;
            forTest.clear();
-
-            do{
+ 
+            do {
                 std::cout << "PASSPORT ID: ";
                 std::cin >> forTest;
                 test = false;
@@ -271,7 +271,7 @@ void editContact()
             myContacts[i].passportID = forTest;
             forTest.clear();
 
-            do{
+            do {
                 std::cout << "EMAIL ADDRESS: ";
                 std::cin >> forTest;
                 test = false;
@@ -338,8 +338,7 @@ void exit()
 void interface()
 {
     int choice = -1;
-    do
-    {
+    do {
         std::cout << "          MAIN MENU          " << std::endl;
         std::cout << "=============================" << std::endl;
         std::cout << "[1] LIST ALL CONTACTS" << std::endl;
